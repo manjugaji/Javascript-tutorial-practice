@@ -38,3 +38,14 @@ const yearsUntillRetirement = (birthYear) => {
 };
 
 console.log(yearsUntillRetirement(1990));
+
+const person = {
+  firstName: 'Manju',
+  lastName: 'Gaji',
+  age: 2037 - 1990,
+  job: 'engineer',
+  friends: ['x', 'y', 'z'],
+};
+
+console.log(person.firstName);
+console.log(person['firstName']);
